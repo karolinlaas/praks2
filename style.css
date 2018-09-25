@@ -1,0 +1,225 @@
+.container {
+	width: 1140px;
+	margin: 50px auto 50px auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #94b8b8;
+}
+
+header {
+	width: 1140px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+header h1, .otsing {
+	float: left;
+}
+
+.otsing {
+	position: absolute;
+	top: 12px;
+	right: 2px;
+	height: 30px;
+}
+
+nav {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: #cceeff;
+}
+
+nav a:hover {
+	background-color: #bfbfbf;
+}
+
+nav a.active {
+	background-color: #bfbfbf;
+}
+
+nav li, footer li {
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover, footer a:hover {
+	color: #cceeff;
+}
+
+.hero {
+	width: 1140px;
+	height: 50vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	margin-bottom: 30px;
+}
+
+.hero h1 {
+	text-shadow: 2px 2px #ffffff;
+	font-size: 55px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.post h1 {
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.post h6 {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.post p {
+	text-align: justify;
+	line-height: 145%;
+}
+
+.post p::first-letter {
+	font-size: 200%;
+}
+
+.post, .teised {
+	float: left;
+}
+
+.post {
+	width: 74%;
+	margin-bottom: 30px;
+	background-color: #cceeff;
+	padding: 20px;
+	margin-right: 34px;
+	box-sizing: border-box;
+}
+
+.teised {
+	width: 23%;
+	background-color: #cceeff;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.teised ul {
+	list-style-type: none;
+	line-height: 200%;
+}
+
+.teised h3 {
+	margin-bottom: 20px;
+}
+
+.teised a, footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer {
+	text-align: center;
+	background-color: #bfbfbf;
+	line-height: 145%;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.grid-container {
+	margin: 40px 20px 40px 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+}
+
+.grid-item img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 140px;
+}
+
+.grid-item p {
+	padding: 20px;
+	text-align: justify;
+}
+
+.contact {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.map, .left {
+	float: left;
+	width: 50%;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
+
+.map iframe {
+	width: 100%;
+	height: 400px;
+}
+
+.left {
+	margin-top: 20px;
+}
+
+.left h4 {
+	font-size: 25px;
+}
+	
+.left p {
+	padding-top: 10px;
+}
+
+.login1, .login2 {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.login1 {
+	padding-right: 20px;
+}
+
+.login1 li, .login2 li {
+	list-style-type: none;
+}
+
+.login {
+  float: right;
+  position: relative;
+  left: -40%;
+}
